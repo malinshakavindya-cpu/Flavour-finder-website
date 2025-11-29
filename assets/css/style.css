@@ -1,0 +1,76 @@
+
+ /* General page tweaks */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card styling */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Card image */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card body */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Title */
+.card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Text */
+.card-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Buttons inside cards */
+.card .btn {
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+/* Results grid spacing */
+#results .col-md-3 {
+  display: flex;
+}
+
+
+
+
+.step-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.step-card h3 {
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.step-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
